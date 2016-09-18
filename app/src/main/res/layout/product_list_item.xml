@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tv_code"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_weight="1.5"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tv_name"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_weight="4.5"
+        android:textAlignment="center"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tv_price"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="right" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tv_cbm"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="right" />
+
+</LinearLayout>
